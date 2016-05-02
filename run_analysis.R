@@ -71,7 +71,7 @@ yact_all<-rbind(ytrainact_sub,ytestact_sub)
 
 
 ## Save Ascii
-write.table(yact_all,file="alldata.csv",row.names=FALSE)
+write.table(yact_all,file="alldata.txt",row.names=FALSE)
 
 
 
